@@ -14,6 +14,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 #calculator{
     height: 60%;
@@ -27,12 +28,12 @@ html,body{
 }
 #input{
     height: 20%;
-    width: 100%;
+    width: 90%;
     border: none;
     background-color: transparent;
     text-align: right;
     font-size: 40px;
-    margin-left: -20px;
+    margin-right: 20px;
 }
 .key{
     height: 45px;
