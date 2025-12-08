@@ -5,13 +5,14 @@ let btn = document.querySelectorAll("button");
 let string = "";
 let arr = Array.from(btn);
 
-
+// ======================
+// BUTTON CLICK HANDLING
+// ======================
 arr.forEach(button =>{
     button.addEventListener("click",(e) =>{
         handleInput(e.target.innerHTML);
     });
 });
-
 
 
 document.addEventListener("keydown", function(e){
@@ -26,13 +27,12 @@ document.addEventListener("keydown", function(e){
         handleInput("=");
     }
     else if(key === "Backspace"){
-        handleInput("DE");
+        handleInput("DEL");
     }
     else if(key === "Escape"){
         handleInput("AC");
     }
 });
-
 
 
 function handleInput(value){
@@ -44,7 +44,7 @@ function handleInput(value){
         string = "";
         input.value = string;
     }
-    else if(value == 'DE'){
+    else if(value == 'DEL'){
         string = string.slice(0, -1);
         input.value = string;
     }
