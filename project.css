@@ -67,10 +67,10 @@ html,body{
         height: 100%;
     }
     #input{
-        font-size: 40px;
+        font-size: 50px;
         height: 30%;
         width: 90%;
-        margin-bottom: 30px;
+        margin-bottom: 70px;
         border-bottom: 2px solid white;
         margin-left: 20px;
     }
@@ -79,6 +79,8 @@ html,body{
         width: 63px;
         font-size: 25px;
         opacity: 2;
+        margin-right: 32px;
+        margin-bottom: 22px;
     }
   .main-key{
     margin-left: 0px;
